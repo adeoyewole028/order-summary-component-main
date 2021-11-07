@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500, 700, 900;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: 100% 350%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music-img {
+  background-image: url(./images/illustration-hero.svg);
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 220px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main-1 {
+  display: flex;
+  flex-direction: column;
+  background-size: contain;
+  width: 450px;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.order {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  padding:20px;
+}
+
+.bio {
+  font-size: 15px;
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: hsl(225, 100%, 98%);
+  margin: 30px;
+  border-radius: 5px;
+}
+
+.song-icon {
+  background-image: url(./images/icon-music.svg);
+  padding: 24px;
+}
+
+.annual-plan {
+  padding: 0px 20px;
+  margin-right: 90px;
+  /* font-weight: 800; */
+}
+
+.change {
+  padding: 10px 20px;
+}
+
+.change:hover > a {
+  color: #766CF1;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.proceed {
+  padding: 10px 130px;
+  background-color: #766CF1;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  box-shadow: 0px 6px 15px 0px hsl(224, 86%, 67%);
+}
+
+.proceed:hover {
+  cursor: pointer;
+}
+
+.cancel {
+  padding: 20px;
+}
+
+.cancel:hover {
+  font-weight: 800;
+  cursor: pointer;
+}
+
