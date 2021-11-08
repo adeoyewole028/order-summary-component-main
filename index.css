@@ -4,10 +4,14 @@
 @media(min-width: 376px) {
 body {
   font-family: "Red Hat Display", sans-serif;
-  font-weight: 500, 700, 900;
   font-size: 16px;
+  display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
   background-image: url("./images/pattern-background-desktop.svg");
   background-size: 100% ;
   background-color:  hsl(225, 100%, 94%);
@@ -21,13 +25,18 @@ body{
     background-color:  hsl(225, 100%, 94%);
     background-repeat: no-repeat;
 }
+  
 }
 
 
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  width: fit-content;
+  border-radius: 16px;
+  margin-bottom: 9px;
 }
 
 .music-img {
@@ -35,8 +44,8 @@ body{
   background-repeat: no-repeat;
   width: 450px;
   height: 220px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .main-1 {
@@ -44,23 +53,41 @@ body{
   flex-direction: column;
   background-size: contain;
   width: 450px;
+  justify-content: center;
+  align-items: center;
   background-color: white;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 
 .order {
   text-align: center;
   font-weight: 900;
+  margin-bottom: -3px;
+  color: hsl(223, 47%, 23%);
   color:  hsl(223, 47%, 23%); 
   font-size: 30px;
   padding:20px;
 }
 
 .bio {
-  font-size: 15px;
   text-align: center;
   color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+
+.plans {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  width: 80%;
+  min-height: 6.5rem;
+  background-color: hsl(228, 100%, 98%);
+  border-radius: 1rem;
+}
+
+.song-icon {
+  margin-left: 16px;
 }
 
 .plans {
@@ -91,11 +118,23 @@ body{
 }
 
 .annual-plan {
-  padding: 0px 20px;
-  margin-right: 90px;
+  line-height: 4px;
+}
+
+.annual-plan h4 {
+  font-size: 16px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.annual-plan p {
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
 }
 
 .change {
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
   padding: 10px 20px; 
 }
 
@@ -103,8 +142,8 @@ body{
   color: hsl(245, 75%, 52%); 
 }
 
-.change:hover > a {
-  color: #766CF1;
+.change:hover>a {
+  color: #3829e0c0;
   cursor: pointer;
   text-decoration: none;
 }
@@ -121,24 +160,31 @@ body{
   background-color: hsl(245, 75%, 52%);
   border-radius: 10px;
   border: none;
+  font-weight: 700;
   color: white;
+  height: 3.3rem;
+  box-shadow: 0 12px 30px rgba(60, 45, 221, 0.438);
   box-shadow: 0px 6px 15px 0px hsl(224, 86%, 67%);
   font-weight: 700;
 }
 
 .proceed:hover {
+  background-color: #3829e0c0;
   cursor: pointer;
   background-color:#766CF1;
 }
 
 .cancel {
+  color: hsl(221, 9%, 42%);
+  font-weight: 900;
+  margin: 19px 0;
   padding: 20px;
   color: hsl(224, 23%, 55%) ;
   font-weight: 700;
 }
 
 .cancel:hover {
-  font-weight: 800;
+  color: hsl(223, 47%, 23%);
   cursor: pointer;
   color:  hsl(223, 47%, 23%); 
   

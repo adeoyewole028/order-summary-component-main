@@ -34,6 +34,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 
 ### What I learned
 
@@ -60,6 +61,10 @@ body {
   background-image: url(./images/pattern-background-desktop.svg);
   background-size: 100%;
 }
+```
+## What I Afolabi learned
+```css
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 ```
 
 ## What I, Osazuwa-Ojo Victory have learnt:
@@ -107,6 +112,7 @@ body{
 
 - Website - https://wwww.internship.sidehustle.ng
 - Side Hustle - Adegboyega SH-IT-0075304
+- Side Hustle - Afolabi Olanshile SH-IT-006681
 - Side Hustle - Osazuwa-Ojo Victory SH-IT-0087734
 
 
