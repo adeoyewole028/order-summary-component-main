@@ -21,8 +21,8 @@ body {
   background-repeat: no-repeat;
   width: 450px;
   height: 220px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .main-1 {
@@ -30,49 +30,60 @@ body {
   flex-direction: column;
   background-size: contain;
   width: 450px;
+  justify-content: center;
+  align-items: center;
   background-color: white;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 
 .order {
   text-align: center;
-  font-weight: bolder;
-  font-size: 30px;
-  padding:20px;
+  font-weight: 900;
+  margin-bottom: -3px;
+  color: hsl(223, 47%, 23%);
 }
 
 .bio {
-  font-size: 15px;
   text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
 }
 
 .plans {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 20px;
-  background-color: hsl(225, 100%, 98%);
-  margin: 30px;
-  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  width: 80%;
+  min-height: 6.5rem;
+  background-color: hsl(228, 100%, 98%);
+  border-radius: 1rem;
 }
 
 .song-icon {
-  background-image: url(./images/icon-music.svg);
-  padding: 24px;
+margin-left: 16px;
 }
 
 .annual-plan {
-  padding: 0px 20px;
-  margin-right: 90px;
+  line-height: 4px;
+}
+.annual-plan h4{
+  font-size: 16px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.annual-plan p{
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
 }
 
 .change {
-  padding: 10px 20px;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
 }
 
 .change:hover > a {
-  color: #766CF1;
+  color: #3829e0c0;
   cursor: pointer;
   text-decoration: none;
 }
@@ -86,23 +97,29 @@ body {
 
 .proceed {
   padding: 10px 130px;
-  background-color: #766CF1;
+  background-color: hsl(245, 75%, 52%);
   border-radius: 10px;
   border: none;
+  font-weight: 700;
   color: white;
-  box-shadow: 0px 6px 15px 0px hsl(224, 86%, 67%);
+  height: 3.3rem;
+  box-shadow: 0 12px 30px rgba(60, 45, 221, 0.438);
+  font-weight: 700;
 }
 
 .proceed:hover {
+  background-color: #3829e0c0;
   cursor: pointer;
 }
 
 .cancel {
-  padding: 20px;
+  color: hsl(221, 9%, 42%);
+  font-weight: 900;
+  margin: 19px 0;
 }
 
 .cancel:hover {
-  font-weight: 800;
+  color: hsl(223, 47%, 23%);
   cursor: pointer;
 }
 
