@@ -34,6 +34,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 
 ### What I learned
 
@@ -60,6 +61,10 @@ body {
   background-image: url(./images/pattern-background-desktop.svg);
   background-size: 100% 350%;
 }
+
+and
+
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 ```
 
 
@@ -67,5 +72,6 @@ body {
 
 - Website - https://wwww.internship.sidehustle.ng
 - Side Hustle - Adegboyega SH-IT-0075304
+- Side Hustle - Afolabi Olanshile SH-IT-006681
 
 
