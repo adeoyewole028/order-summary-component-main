@@ -61,9 +61,9 @@ body {
   background-image: url(./images/pattern-background-desktop.svg);
   background-size: 100%;
 }
-
-and
-
+```
+## What I Afolabi learned
+```css
 <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 ```
 
