@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url("./images/pattern-background-desktop.svg");
-  background-size: 100%;
+  background-size: 100% ;
   background-color:  hsl(225, 100%, 94%);
   background-repeat: no-repeat;
 }

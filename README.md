@@ -58,7 +58,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url(./images/pattern-background-desktop.svg);
-  background-size: 100% 350%;
+  background-size: 100%;
 }
 ```
 
@@ -67,5 +67,6 @@ body {
 
 - Website - https://wwww.internship.sidehustle.ng
 - Side Hustle - Adegboyega SH-IT-0075304
+- Side Hustle - Osazuwa-Ojo Victory SH-IT-0087734
 
 
