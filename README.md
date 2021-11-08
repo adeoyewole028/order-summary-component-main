@@ -59,17 +59,60 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url(./images/pattern-background-desktop.svg);
-  background-size: 100% 350%;
+  background-size: 100%;
 }
 ```
 ## What I Afolabi learned
 ```css
 <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 ```
+
+## What I, Osazuwa-Ojo Victory have learnt:
+
+```css
+/* Learnt adjusting and formatting of text colour and font.*/
+.cancel {
+  padding: 20px;
+  color: hsl(224, 23%, 55%) ;
+  font-weight: 700;
+}
+
+.cancel:hover {
+  font-weight: 800;
+  cursor: pointer;
+  color:  hsl(223, 47%, 23%); 
+  
+}
+
+/* Learnt the @media query and how to display background pictures and colour*/
+@media(min-width: 376px) {
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500, 700, 900;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-size: 100% ;
+  background-color:  hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+}
+}
+
+@media(max-width: 375px){
+body{
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-color:  hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+}
+}
+```
+
 ## Author
 
 - Website - https://wwww.internship.sidehustle.ng
 - Side Hustle - Adegboyega SH-IT-0075304
 - Side Hustle - Afolabi Olanshile SH-IT-006681
+- Side Hustle - Osazuwa-Ojo Victory SH-IT-0087734
 
 
