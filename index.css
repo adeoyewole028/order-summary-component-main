@@ -1,14 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
 
+
+@media(min-width: 376px) {
 body {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500, 700, 900;
   font-size: 16px;
   justify-content: center;
   align-items: center;
-  background-image: url(./images/pattern-background-desktop.svg);
-  background-size: 100% 350%;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-size: 100% ;
+  background-color:  hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
 }
+}
+
+@media(max-width: 375px){
+body{
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-color:  hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+}
+}
+
 
 .main {
   display: flex;
@@ -37,7 +51,8 @@ body {
 
 .order {
   text-align: center;
-  font-weight: bolder;
+  font-weight: 900;
+  color:  hsl(223, 47%, 23%); 
   font-size: 30px;
   padding:20px;
 }
@@ -45,21 +60,34 @@ body {
 .bio {
   font-size: 15px;
   text-align: center;
+  color: hsl(224, 23%, 55%);
 }
 
 .plans {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: hsl(225, 100%, 98%);
-  margin: 30px;
+  color:  hsl(223, 47%, 23%);
+  margin: 10px;
+  margin-left: 35px;
+  font-weight: 700;
   border-radius: 5px;
+  height: 50px;
+  width: 360px
+}
+
+.plans p{
+  color: hsl(224, 23%, 55%) ;
+  font-weight: 500;
+  display: inline;
 }
 
 .song-icon {
   background-image: url(./images/icon-music.svg);
   padding: 24px;
+  background-repeat: no-repeat;
 }
 
 .annual-plan {
@@ -68,7 +96,11 @@ body {
 }
 
 .change {
-  padding: 10px 20px;
+  padding: 10px 20px; 
+}
+
+.change a{
+  color: hsl(245, 75%, 52%); 
 }
 
 .change:hover > a {
@@ -86,23 +118,32 @@ body {
 
 .proceed {
   padding: 10px 130px;
-  background-color: #766CF1;
+  background-color: hsl(245, 75%, 52%);
   border-radius: 10px;
   border: none;
   color: white;
   box-shadow: 0px 6px 15px 0px hsl(224, 86%, 67%);
+  font-weight: 700;
 }
 
 .proceed:hover {
   cursor: pointer;
+  background-color:#766CF1;
 }
 
 .cancel {
   padding: 20px;
+  color: hsl(224, 23%, 55%) ;
+  font-weight: 700;
 }
 
 .cancel:hover {
   font-weight: 800;
   cursor: pointer;
+  color:  hsl(223, 47%, 23%); 
+  
 }
 
+.padding{
+  padding : 4px;
+}
