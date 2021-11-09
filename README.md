@@ -61,6 +61,23 @@ body {
   background-size: 100%;
 }
 ```
+## What I, Chukwu joseph have learnt:
+```css
+/*how to add and adjust border radius of*/
+.music-img {
+  background-image: url(./images/illustration-hero.svg);
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 220px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+ /*how to style a class and give a hover function*/
+ .proceed:hover {
+  cursor: pointer;
+  background-color:#766CF1;
+}
+
 
 ## What I, Osazuwa-Ojo Victory have learnt:
 
