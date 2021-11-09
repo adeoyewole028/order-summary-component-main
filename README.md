@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/adeoyewole028/order-summary-component-main.git
-- Live Site URL: https://6188269c12808f5e3a43b436--relaxed-brown-94c96b.netlify.app/
+- Live Site URL: https://capstone-group-62-project.netlify.app/
 
 ## My process
 
@@ -107,7 +107,7 @@ body{
 
 ## Authors
 
-- Website - https://wwww.internship.sidehustle.ng
+- Project Website - https://capstone-group-62-project.netlify.app/
 - Side Hustle - Adegboyega SH-IT-0075304
 - Side Hustle - Osazuwa-Ojo Victory SH-IT-0087734
 - Side Hustle - Chukwu Joseph SH-IT-0107838
